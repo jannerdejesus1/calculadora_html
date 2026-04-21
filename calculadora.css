@@ -18,7 +18,7 @@ body {
     background-color: var(--card);
     padding: 30px;
     border-radius: 40px;
-    box-shadow: 15px 15px 0px var(--negro);
+    box-shadow: 15px 15px 0px var(--boton);
     width: 350px;
 }
 .display-container {
