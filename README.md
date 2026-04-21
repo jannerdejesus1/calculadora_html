@@ -61,6 +61,7 @@ Este proyecto fue desarrollado con fines de práctica para reforzar conocimiento
 ## Autor
 
 Janner de Jesús de la Hoz Navarro
+Edgar David Corzo Londoño
 
 ---
 
