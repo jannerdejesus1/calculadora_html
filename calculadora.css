@@ -1,0 +1,80 @@
+:root {
+    --fondo: #000000;
+    --card: #111111;
+    --boton: #d10000;
+    --display-txt: #000000;
+    --negro: #000000;
+}
+body {
+    background-color: var(--fondo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Fraunces', serif;
+}
+.calculadora {
+    background-color: var(--card);
+    padding: 30px;
+    border-radius: 40px;
+    box-shadow: 15px 15px 0px var(--negro);
+    width: 350px;
+}
+.display-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    gap: 8px;
+}
+.segmento {
+    height: 40px;
+    width: 60px;
+    flex: none;
+    font-size: 1.2rem;
+}
+input.segmento {
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.segmento.operador {
+    flex: 0.6;
+    background: #f0f0f0;
+}
+.igual {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#res {
+    background: var(--negro);
+    color: white;
+    flex: 1.2;
+    box-shadow: none;
+}
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+button {
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--boton);
+    color: white;
+    font-size: 1.4rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.btn-esp {
+    background-color: #ff0000;
+}
+.btn-op {
+    background-color: var(--negro);
+}
+.col-2 {
+    grid-column: span 2;
+}
