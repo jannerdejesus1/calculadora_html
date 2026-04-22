@@ -42,7 +42,7 @@ Aplicación web de calculadora básica desarrollada con HTML, CSS y JavaScript. 
 1. Clonar el repositorio:
 
 ```
-git clone https:https://github.com/jannerdejesus1/calculadora_html.git
+git clone https://github.com/jannerdejesus1/calculadora_html.git
 ```
 
 2. Abrir el archivo `calculadora.html` en un navegador.
